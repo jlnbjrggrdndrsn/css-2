@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  background: #fff;
+}
+
+#topHeader {
+  position: fixed;
+  width: 100%;
+  height: ;
+}
+
+#topNav {
+  position: relative;
+  display: flex;
+  justify-content:space-between;
+}
+
+#topNav a:nth-last-child(2) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: -50%;
+}
