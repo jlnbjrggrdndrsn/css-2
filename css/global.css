@@ -9,7 +9,7 @@
 #topHeader {
   position: fixed;
   width: 100%;
-  height: ;
+  height: 130px;
 }
 
 #topNav {
@@ -20,7 +20,8 @@
 
 #topNav a:nth-last-child(2) {
   position: absolute;
-  top: 0;
-  left: 50%;
-  right: -50%;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: auto;
 }
